@@ -19,3 +19,13 @@
 
 
 **AQI Dataset**
+
+1) Requested an account and looked up using the FIPS code of the city
+2) Defined bounding box after it was found that no monitors are around the city
+3) Scale-1 bounding box did not work
+4) Scale-2 bounding box returned 4 sites, while the one started the earliest was in 2000
+5) Scale-3 bounding box returned a few sites with start-dates in 1988
+
+*Estimation of AQI*
+
+
