@@ -17,6 +17,7 @@
 1) Filtered the dataset with dates from 1963 to 2023
 2) Used the biggest ring and the latitude and the longitude of the city and calculated the distance from the center of the city and the center of the biggest ring of the fire
 3) Used to calculated distance to filter out the fires that are within 1250 miles radial
+4) The processed dataset for the city could be found [here](https://drive.google.com/file/d/1ZDMaTStyK2N215kZe9tSSAifTSfXCAOH/view?usp=drive_link) as the size is too large for github
 
 
 *AQI Dataset*
