@@ -36,6 +36,8 @@
 
 **Conclusion & Visualization**
 
+*the reflection PDF could be found [here](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/blob/main/Part_1_Common_Analysis/Reflection.pdf)*
+
 ![Fire_Counts_in_Range](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/ad9b035b-be89-4fcd-9134-dcb8b8efe08d)
 
 The graph shows that there are more fires at further distances.
