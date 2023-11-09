@@ -34,4 +34,15 @@
 
 **Conclusion & Visualization**
 
+![Fire_Counts_in_Range](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/ad9b035b-be89-4fcd-9134-dcb8b8efe08d)
+
+The graph shows that there are more fires at further distances.
+
+![Acres_Per_Year](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/bd7a40b2-ed27-4ca5-8591-3dde85622c1d)
+
+This graph shows that there is likely a trend that there are more and more acres burned each year since the general direction is going upward.
+
+![Comparison between EstAQI and AvgAQI](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/ffd49411-4abc-4c35-8442-af6945fefed7)
+
+This graph shows the comparison between the gaseous AQI from site 35013 and the AQI produced by eistimation using GIS_Acres and average distance from the center of the fire to the center of the city.
 
