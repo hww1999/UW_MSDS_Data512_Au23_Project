@@ -4,10 +4,11 @@
 
 **Preparation for Datasets**
 
-1) WildFire Dataset
-  obtained from [website]()
-2) AQI Dataset
-  obtained from [API (documentation)]()
+1) WildFire Dataset obtained from [website](https://www.sciencebase.gov/catalog/item/61aa537dd34eb622f699df81)
+2) AQI Dataset and its documentatoin could be found [here](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf)
+4) Code to preprocess wildfire dataset comes from [here](https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view?usp=sharing)
+5) Code to get access to AQI data comes from [here](https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view?usp=sharing)
+  
 
 **Preprocessing of Datasets**
 
