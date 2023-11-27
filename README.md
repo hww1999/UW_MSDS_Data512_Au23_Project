@@ -50,3 +50,14 @@ This graph shows that there is likely a trend that there are more and more acres
 
 This graph shows the comparison between the gaseous AQI from site 35013 and the AQI produced by eistimation using GIS_Acres and average distance from the center of the fire to the center of the city.
 
+### Part II: Extension Plan
+
+**Preparation for Datasets**
+
+**Preprocessing of Datasets**
+
+**Known Issues**
+
+To begin with, tracking the discharge of water might not fully reveal the effects of it upon the city since there lacks enough data about the water quality of the city to testify. Additionally, while a small volume of water discharge could be due to dryness and fire, a large volume of water discharge might not speak otherwise since its appearance could be due to ice melting or other abrupt surges of water. Such factors might be further included in the whole analysis to rule out the potential effects there.
+Additionally, while the dataset of the concentration of chemicals has granularity of quarterly and yearly data, quarterly data might work better for time series data. However, while usually wildfire happens only from May to October, it would be hard to decide for the granularity so that datasets could match. Further, as mentioned above, the quantity of data about concentration of chemicals in local water systems is limited. The small sample makes it harder to validate the hypothesis. If there is chance, the same test should be performed for different cities using the data about wildfires closer to those cities and the data from local water systems.
+
