@@ -62,6 +62,14 @@ Understanding that water palys a great part in humans' daily lives and thus the 
 
 2) [USGS Water Data for the Nation](nwis.waterdata.usgs.gov/nwis) - the dataset is about the yearly water discharge, namely how much water goes through the city in each year. Originally planning to determine whether the amount of water would affect the concentration of the chemical compounds in the water system, yet due to the low correlation and the missing data in between years, the dataset was not used in the actual model building process.
 
+**Known Issues**
+
+To begin with, tracking the discharge of water might not fully reveal the effects of it upon the city since there lacks enough data about the water quality of the city to testify. Additionally, while a small volume of water discharge could be due to dryness and fire, a large volume of water discharge might not speak otherwise since its appearance could be due to ice melting or other abrupt surges of water. Such factors might be further included in the whole analysis to rule out the potential effects there.
+Additionally, while the dataset of the concentration of chemicals has granularity of quarterly and yearly data, quarterly data might work better for time series data. However, while usually wildfire happens only from May to October, it would be hard to decide for the granularity so that datasets could match. Further, as mentioned above, the quantity of data about concentration of chemicals in local water systems is limited. The small sample makes it harder to validate the hypothesis. If there is chance, the same test should be performed for different cities using the data about wildfires closer to those cities and the data from local water systems.
+
+
+### Part III: Extension Analysus
+
 **Preprocessing of Datasets**
 
 *[WQI data](nmtracking.doh.nm.gov/dataportal/query/Index.html)*
@@ -72,7 +80,15 @@ Understanding that water palys a great part in humans' daily lives and thus the 
 4) summed up the weighted concentration in the year
 5) grouped by year
 
-**Implications from the Analysis**
+**Correlation Analysis**
+
+*NEED TWO CORRELATION GRAPHS HERE*
+
+**Design of Estimator**
+
+
+
+**Built Models**
 
 ![haas_fit](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/eb5d3411-026c-472d-9f18-3ec5ee1aaa7b)
 
@@ -82,8 +98,4 @@ The fitted simple linear regression model between the WQI estimator and the conc
 
 The fitted simple linear regression model between the WQI estimator and the concentration of Ni in the water system.
 
-**Known Issues**
-
-To begin with, tracking the discharge of water might not fully reveal the effects of it upon the city since there lacks enough data about the water quality of the city to testify. Additionally, while a small volume of water discharge could be due to dryness and fire, a large volume of water discharge might not speak otherwise since its appearance could be due to ice melting or other abrupt surges of water. Such factors might be further included in the whole analysis to rule out the potential effects there.
-Additionally, while the dataset of the concentration of chemicals has granularity of quarterly and yearly data, quarterly data might work better for time series data. However, while usually wildfire happens only from May to October, it would be hard to decide for the granularity so that datasets could match. Further, as mentioned above, the quantity of data about concentration of chemicals in local water systems is limited. The small sample makes it harder to validate the hypothesis. If there is chance, the same test should be performed for different cities using the data about wildfires closer to those cities and the data from local water systems.
-
+**Implications from the Analysis**
