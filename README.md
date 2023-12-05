@@ -82,7 +82,14 @@ Additionally, while the dataset of the concentration of chemicals has granularit
 
 **Correlation Analysis**
 
-*NEED TWO CORRELATION GRAPHS HERE*
+![corr_h](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/96c768cc-0b7c-48c1-bddd-12d3f9eb868f)
+
+Correlation between the concentration of HAAs in the water system and other features from wildfires.
+
+![corr_n](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/7ce0a3b2-6e72-450c-b259-805380d32335)
+
+Correlation between the concentration of Nitrate in the water system and other features from wildfires.
+
 
 **Design of Estimator**
 
