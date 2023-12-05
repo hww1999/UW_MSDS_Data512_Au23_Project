@@ -58,7 +58,7 @@ Understanding that water palys a great part in humans' daily lives and thus the 
 
 **Preparation for Datasets**
 
-1) [WQI](nmtracking.doh.nm.gov/dataportal/query/Index.html) - instead of a general quality index, we found multiple indexes that quantified the concentration of chemical compounds in the water system that serves more than 35k people in the city. Among all those indexes, we at last chose two, which are HAAs and Nitrate since both had quarterly data and they go into the water system in different ways.
+1) [WQI](nmtracking.doh.nm.gov/dataportal/query/Index.html) - instead of a general quality index, we found multiple indexes that quantified the concentration of chemical compounds in the water system that serves more than 35k people in the city. Among all those indexes, we at last chose two, which are Haloacetic Acids (HAAs) and Nitrate (Ni) since both had quarterly data and they go into the water system in different ways.
 
 2) [USGS Water Data for the Nation](nwis.waterdata.usgs.gov/nwis) - the dataset is about the yearly water discharge, namely how much water goes through the city in each year. Originally planning to determine whether the amount of water would affect the concentration of the chemical compounds in the water system, yet due to the low correlation and the missing data in between years, the dataset was not used in the actual model building process.
 
