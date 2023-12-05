@@ -52,17 +52,25 @@ This graph shows the comparison between the gaseous AQI from site 35013 and the 
 
 ### Part II: Extension Plan
 
+**Focus of the Plan**
+
+Understanding that water palys a great part in humans' daily lives and thus the cleaniness matters for the city, this extension plan tends to investigate how wildfires could impact the water system of the city, and whether there is anyway to preserve the water the city is drinking or using. We looked for the Water Quality Index (WQI) of the city and planned to see the correlation between the the index and the estimator we created for smoke impact.
+
 **Preparation for Datasets**
 
-[Water Quality Index (WQI) data](nmtracking.doh.nm.gov/dataportal/query/Index.html)
+1) [WQI](nmtracking.doh.nm.gov/dataportal/query/Index.html) - instead of a general quality index, we found multiple indexes that quantified the concentration of chemical compounds in the water system that serves more than 35k people in the city. Among all those indexes, we at last chose two, which are HAAs and Nitrate since both had quarterly data and they go into the water system in different ways.
 
-[USGS Water Data for the Nation](nwis.waterdata.usgs.gov/nwis)
+2) [USGS Water Data for the Nation](nwis.waterdata.usgs.gov/nwis) - the dataset is about the yearly water discharge, namely how much water goes through the city in each year. Originally planning to determine whether the amount of water would affect the concentration of the chemical compounds in the water system, yet due to the low correlation and the missing data in between years, the dataset was not used in the actual model building process.
 
 **Preprocessing of Datasets**
 
-For the [WQI data](nmtracking.doh.nm.gov/dataportal/query/Index.html), there exists quarterlty and yearly data. In order to look at the impact of fire seasons, we chose to use quarterly data instead of yearly data. 
+*[WQI data](nmtracking.doh.nm.gov/dataportal/query/Index.html)*
 
-For [USGS Water Data](nwis.waterdata.usgs.gov/nwis), we later merged the dataset with the other datasets we were using to extract only the years that we could cross reference with other indexes.
+1) changed the 'Quarter' column from 'Jan to Mar' into 'Q1' and so on
+2) While wildfire dataset and AQI datasets are both yearly data, we need to change WQI into yearly data as well
+3) gave different weights to the concentrations in different quarters for fire seasons. Q1:0, Q2:2/6, Q2:3/6, Q4:1/6
+4) summed up the weighted concentration in the year
+5) grouped by year
 
 **Known Issues**
 
