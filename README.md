@@ -54,7 +54,15 @@ This graph shows the comparison between the gaseous AQI from site 35013 and the 
 
 **Preparation for Datasets**
 
+[Water Quality Index (WQI) data](nmtracking.doh.nm.gov/dataportal/query/Index.html)
+
+[USGS Water Data for the Nation](nwis.waterdata.usgs.gov/nwis)
+
 **Preprocessing of Datasets**
+
+For the [WQI data](nmtracking.doh.nm.gov/dataportal/query/Index.html), there exists quarterlty and yearly data. In order to look at the impact of fire seasons, we chose to use quarterly data instead of yearly data. 
+
+For [USGS Water Data](nwis.waterdata.usgs.gov/nwis), we later merged the dataset with the other datasets we were using to extract only the years that we could cross reference with other indexes.
 
 **Known Issues**
 
