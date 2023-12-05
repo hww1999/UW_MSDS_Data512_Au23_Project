@@ -72,6 +72,16 @@ Understanding that water palys a great part in humans' daily lives and thus the 
 4) summed up the weighted concentration in the year
 5) grouped by year
 
+**Implications from the Analysis**
+
+![haas_fit](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/eb5d3411-026c-472d-9f18-3ec5ee1aaa7b)
+
+The fitted simple linear regression model between the WQI estimator and the concentration of HAAs in the water system.
+
+![nitrate_fit](https://github.com/hww1999/UW_MSDS_Data512_Au23_Project/assets/50925030/c2d085cd-a39f-40ae-8162-6bb4aeb457da)
+
+The fitted simple linear regression model between the WQI estimator and the concentration of Ni in the water system.
+
 **Known Issues**
 
 To begin with, tracking the discharge of water might not fully reveal the effects of it upon the city since there lacks enough data about the water quality of the city to testify. Additionally, while a small volume of water discharge could be due to dryness and fire, a large volume of water discharge might not speak otherwise since its appearance could be due to ice melting or other abrupt surges of water. Such factors might be further included in the whole analysis to rule out the potential effects there.
