@@ -1,5 +1,5 @@
 # UW_MSDS_Data512_Au23_Project
-
+```bash
 .
 ├── LICENSE
 ├── Part_1_Common_Analysis
@@ -45,7 +45,7 @@
 ├── Part_3_Pecha_Kucha
 │   └── pecha kucha.pdf
 └── README.md
-
+```
 ### Part I: Common Analysis
 
 **Preparation for Datasets**
