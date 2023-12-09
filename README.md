@@ -1,5 +1,51 @@
 # UW_MSDS_Data512_Au23_Project
 
+.
+├── LICENSE
+├── Part_1_Common_Analysis
+│   ├── Code
+│   │   ├── data_daily_analysis.ipynb
+│   │   ├── epa_daily.ipynb
+│   │   └── wildfire_preprocessing.ipynb
+│   ├── Data
+│   │   ├── site35013_gas.json
+│   │   ├── site35013_par.json
+│   │   ├── site48109_gas.json
+│   │   └── site48109_par.json
+│   ├── Reflection.pdf
+│   └── Viz
+│       ├── AQI_35013_Gas.png
+│       ├── AQI_Pre_1988_2023_Ori.png
+│       ├── AQI_Pre_2024_2049.png
+│       ├── AQI_Pre_2024_2049_Ori.png
+│       ├── AQI_vs_Pre_1988_2023.png
+│       ├── Acres_Per_Year.png
+│       ├── Comparison between EstAQI and AvgAQI.png
+│       ├── Cum_Fire_Counts.png
+│       ├── Fire_Counts_in_Range.png
+│       └── Log_Cum_Fire_Counts.png
+├── Part_2_Extension_Plan
+│   ├── chemical conc analysis.ipynb
+│   ├── data
+│   │   ├── avg_aqi_1988.csv
+│   │   ├── haa_qtr.csv
+│   │   ├── month_discharge.csv
+│   │   ├── nitrate_qtr.csv
+│   │   ├── wildfire_part2.csv
+│   │   └── year_discharge.csv
+│   └── graphs
+│       ├── Corr_HAA5.png
+│       ├── Corr_Ni.png
+│       ├── Fitted_models.png
+│       ├── haa_corr.png
+│       ├── haas_fit.png
+│       ├── ni_corr.png
+│       ├── nitrate_fit.png
+│       └── trends.png
+├── Part_3_Pecha_Kucha
+│   └── pecha kucha.pdf
+└── README.md
+
 ### Part I: Common Analysis
 
 **Preparation for Datasets**
