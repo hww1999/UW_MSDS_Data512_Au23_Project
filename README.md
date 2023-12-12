@@ -1,4 +1,7 @@
 # UW_MSDS_Data512_Au23_Project
+
+As shown in the tree below, all the codes related to the investigation of wildfires, intermediary datasets and resulting reflections and graphs from part 1 are under *Part_1_Common_Analysis*. At the same time, all the codes related to the extended investigation and datasets used are under *Part_2_Extension_Plan*. Last but not least, the composed slides about the information of extended plan are under *Part_3_Pecha_Kucha*
+
 ```bash
 .
 ├── LICENSE
